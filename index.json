@@ -1,0 +1,8 @@
+[
+  {
+    "name": "redis",
+    "description": "High performance key-value store",
+    "version": "6.2",
+    "tags": ["database", "cache"]
+  }
+]
