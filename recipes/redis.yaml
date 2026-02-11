@@ -1,0 +1,7 @@
+name: redis
+version: "6.2"
+description: "High performance key-value store"
+service:
+  image: redis:6.2-alpine
+  ports:
+    - "6379:6379"
