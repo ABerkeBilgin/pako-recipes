@@ -3,6 +3,7 @@
     "name": "redis",
     "description": "High performance key-value store",
     "version": "6.2",
+    "path": "recipes/redis.yaml", 
     "tags": ["database", "cache"]
   }
 ]
