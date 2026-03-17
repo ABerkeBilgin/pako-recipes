@@ -1,0 +1,14 @@
+name: wordpress
+version: "latest"
+description: "WordPress CMS Managed by Pako"
+dependencies:
+  - mysql
+service:
+  image: docker.io/library/wordpress:latest
+  ports:
+    - "8081:80"
+  environment:
+    WORDPRESS_DB_HOST: "pako-mysql"
+    WORDPRESS_DB_USER: "root"
+    WORDPRESS_DB_PASSWORD: "secret-pako-pass"
+    WORDPRESS_DB_NAME: "wordpress_db"
