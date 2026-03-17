@@ -1,0 +1,8 @@
+name: mysql
+version: "8.0"
+description: "MySQL Database Server for Pako"
+service:
+  image: docker.io/library/mysql:8.0
+  environment:
+    MYSQL_ROOT_PASSWORD: "secret-pako-pass"
+    MYSQL_DATABASE: "wordpress_db"
