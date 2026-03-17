@@ -5,5 +5,19 @@
     "version": "6.2",
     "path": "recipes/redis.yaml", 
     "tags": ["database", "cache"]
+  },
+  {
+    "name": "mysql",
+    "description": "MySQL Database Server",
+    "version": "8.0",
+    "path": "recipes/mysql.yaml",
+    "tags": ["database", "sql"]
+  },
+  {
+    "name": "wordpress",
+    "description": "WordPress CMS",
+    "version": "latest",
+    "path": "recipes/wordpress.yaml",
+    "tags": ["cms", "php"]
   }
 ]
